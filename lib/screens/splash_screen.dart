@@ -1,6 +1,7 @@
 import 'package:animated_splash_screen/animated_splash_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:wisata_app/screens/dashboard_screen.dart';
+import 'package:wisata_app/screens/home_screen.dart';
+import 'package:wisata_app/screens/home_screen.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -34,7 +35,7 @@ class _SplashScreenState extends State<SplashScreen> {
       splashTransition: SplashTransition.fadeTransition,
       duration: 2000,
       backgroundColor: Colors.black,
-      nextScreen: const DashboardScreen(),
+      nextScreen: const HomeScreen(),
     );
   }
 }
